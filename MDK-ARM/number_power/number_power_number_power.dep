@@ -1,0 +1,1474 @@
+Dependencies for Project 'number_power', Target 'number_power': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\AC5
+F (startup_stm32g431xx.s)(0x67584F1F)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I ../Core/Inc-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "STM32G431xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32g431xx.lst --xref -o number_power\startup_stm32g431xx.o --depend number_power\startup_stm32g431xx.d)
+F (../Core/Src/main.c)(0x67584F1E)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\main.o --omf_browse number_power\main.crf --depend number_power\main.d)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672E72AE)
+I (../Core/Inc/crc.h)(0x67584CF7)
+I (../Core/Inc/dma.h)(0x67571230)
+I (../Core/Inc/i2c.h)(0x675716AD)
+I (../Core/Inc/spi.h)(0x67571226)
+I (../Core/Inc/tim.h)(0x6757CE33)
+I (../Core/Inc/gpio.h)(0x6757043D)
+I (../BSP/ili9341/ili9341.h)(0x6757C489)
+I (../BSP/ili9341/fonts.h)(0x66B233A2)
+I (D:\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+F (../Core/Src/gpio.c)(0x675719F1)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\gpio.o --omf_browse number_power\gpio.crf --depend number_power\gpio.d)
+I (../Core/Inc/gpio.h)(0x6757043D)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/app_freertos.c)(0x67584F1D)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\app_freertos.o --omf_browse number_power\app_freertos.crf --depend number_power\app_freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672E72AE)
+F (../Core/Src/crc.c)(0x67584CF7)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\crc.o --omf_browse number_power\crc.crf --depend number_power\crc.d)
+I (../Core/Inc/crc.h)(0x67584CF7)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/dma.c)(0x67584F1D)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\dma.o --omf_browse number_power\dma.crf --depend number_power\dma.d)
+I (../Core/Inc/dma.h)(0x67571230)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/i2c.c)(0x675727AB)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\i2c.o --omf_browse number_power\i2c.crf --depend number_power\i2c.d)
+I (../Core/Inc/i2c.h)(0x675716AD)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/spi.c)(0x675827C1)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\spi.o --omf_browse number_power\spi.crf --depend number_power\spi.d)
+I (../Core/Inc/spi.h)(0x67571226)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/tim.c)(0x67584F1E)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\tim.o --omf_browse number_power\tim.crf --depend number_power\tim.d)
+I (../Core/Inc/tim.h)(0x6757CE33)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/stm32g4xx_it.c)(0x67584F1E)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_it.o --omf_browse number_power\stm32g4xx_it.crf --depend number_power\stm32g4xx_it.d)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_it.h)(0x67584F1E)
+F (../Core/Src/stm32g4xx_hal_msp.c)(0x67584F1E)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_msp.o --omf_browse number_power\stm32g4xx_hal_msp.crf --depend number_power\stm32g4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/stm32g4xx_hal_timebase_tim.c)(0x67584CF9)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_timebase_tim.o --omf_browse number_power\stm32g4xx_hal_timebase_tim.crf --depend number_power\stm32g4xx_hal_timebase_tim.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_crc.o --omf_browse number_power\stm32g4xx_hal_crc.crf --depend number_power\stm32g4xx_hal_crc.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_crc_ex.o --omf_browse number_power\stm32g4xx_hal_crc_ex.crf --depend number_power\stm32g4xx_hal_crc_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal.o --omf_browse number_power\stm32g4xx_hal.crf --depend number_power\stm32g4xx_hal.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_rcc.o --omf_browse number_power\stm32g4xx_hal_rcc.crf --depend number_power\stm32g4xx_hal_rcc.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_rcc_ex.o --omf_browse number_power\stm32g4xx_hal_rcc_ex.crf --depend number_power\stm32g4xx_hal_rcc_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_flash.o --omf_browse number_power\stm32g4xx_hal_flash.crf --depend number_power\stm32g4xx_hal_flash.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_flash_ex.o --omf_browse number_power\stm32g4xx_hal_flash_ex.crf --depend number_power\stm32g4xx_hal_flash_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_flash_ramfunc.o --omf_browse number_power\stm32g4xx_hal_flash_ramfunc.crf --depend number_power\stm32g4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_gpio.o --omf_browse number_power\stm32g4xx_hal_gpio.crf --depend number_power\stm32g4xx_hal_gpio.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_exti.o --omf_browse number_power\stm32g4xx_hal_exti.crf --depend number_power\stm32g4xx_hal_exti.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_dma.o --omf_browse number_power\stm32g4xx_hal_dma.crf --depend number_power\stm32g4xx_hal_dma.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_dma_ex.o --omf_browse number_power\stm32g4xx_hal_dma_ex.crf --depend number_power\stm32g4xx_hal_dma_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_pwr.o --omf_browse number_power\stm32g4xx_hal_pwr.crf --depend number_power\stm32g4xx_hal_pwr.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_pwr_ex.o --omf_browse number_power\stm32g4xx_hal_pwr_ex.crf --depend number_power\stm32g4xx_hal_pwr_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_cortex.o --omf_browse number_power\stm32g4xx_hal_cortex.crf --depend number_power\stm32g4xx_hal_cortex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_i2c.o --omf_browse number_power\stm32g4xx_hal_i2c.crf --depend number_power\stm32g4xx_hal_i2c.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_i2c_ex.o --omf_browse number_power\stm32g4xx_hal_i2c_ex.crf --depend number_power\stm32g4xx_hal_i2c_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_spi.o --omf_browse number_power\stm32g4xx_hal_spi.crf --depend number_power\stm32g4xx_hal_spi.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_spi_ex.o --omf_browse number_power\stm32g4xx_hal_spi_ex.crf --depend number_power\stm32g4xx_hal_spi_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_tim.o --omf_browse number_power\stm32g4xx_hal_tim.crf --depend number_power\stm32g4xx_hal_tim.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stm32g4xx_hal_tim_ex.o --omf_browse number_power\stm32g4xx_hal_tim_ex.crf --depend number_power\stm32g4xx_hal_tim_ex.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (../Core/Src/system_stm32g4xx.c)(0x672E72F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\system_stm32g4xx.o --omf_browse number_power\system_stm32g4xx.crf --depend number_power\system_stm32g4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (..\BSP\ili9341\fonts.c)(0x675821AD)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\fonts.o --omf_browse number_power\fonts.crf --depend number_power\fonts.d)
+I (..\BSP\ili9341\fonts.h)(0x66B233A2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+F (..\BSP\ili9341\ili9341.c)(0x675842FD)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\ili9341.o --omf_browse number_power\ili9341.crf --depend number_power\ili9341.d)
+I (..\BSP\ili9341\ili9341.h)(0x6757C489)
+I (..\BSP\ili9341\fonts.h)(0x66B233A2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (../Core/Inc/main.h)(0x675719F2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+F (..\BSP\ili9341\ili9341_touch.c)(0x67571B84)(--c99 -c --cpu Cortex-M4.fp.sp -g -W -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\ili9341_touch.o --omf_browse number_power\ili9341_touch.crf --depend number_power\ili9341_touch.d)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h)(0x672E72F4)
+I (../Core/Inc/stm32g4xx_hal_conf.h)(0x67584CF9)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h)(0x672E72F4)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x672E72AE)
+I (../Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x672E72F4)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_crc_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_i2c_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h)(0x672E72F4)
+I (../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h)(0x672E72F4)
+I (..\BSP\ili9341\ili9341_touch.h)(0x67571C0B)
+I (D:\Keil_v5\ARM\AC5\include\stdbool.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (..\BSP\ili9341\ili9341.h)(0x6757C489)
+I (..\BSP\ili9341\fonts.h)(0x66B233A2)
+I (../Core/Inc/main.h)(0x675719F2)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\croutine.o --omf_browse number_power\croutine.crf --depend number_power\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\event_groups.o --omf_browse number_power\event_groups.crf --depend number_power\event_groups.d)
+I (D:\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\list.o --omf_browse number_power\list.crf --depend number_power\list.d)
+I (D:\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\queue.o --omf_browse number_power\queue.crf --depend number_power\queue.d)
+I (D:\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\stream_buffer.o --omf_browse number_power\stream_buffer.crf --depend number_power\stream_buffer.d)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\tasks.o --omf_browse number_power\tasks.crf --depend number_power\tasks.d)
+I (D:\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\timers.o --omf_browse number_power\timers.crf --depend number_power\timers.d)
+I (D:\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\cmsis_os.o --omf_browse number_power\cmsis_os.crf --depend number_power\cmsis_os.d)
+I (D:\Keil_v5\ARM\AC5\include\string.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x672E72AE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\heap_4.o --omf_browse number_power\heap_4.crf --depend number_power\heap_4.d)
+I (D:\Keil_v5\ARM\AC5\include\stdlib.h)(0x5E8E3CC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c)(0x672E72AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../BSP/ili9341 -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_number_power-ID:\Users\AMDD\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Users\AMDD\AppData\Local\Arm\Packs\Keil\STM32G4xx_DFP\1.6.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx-o number_power\port.o --omf_browse number_power\port.crf --depend number_power\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x672E72AE)
+I (D:\Keil_v5\ARM\AC5\include\stddef.h)(0x5E8E3CC2)
+I (D:\Keil_v5\ARM\AC5\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x67584F1D)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x672E72AE)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x672E72AE)

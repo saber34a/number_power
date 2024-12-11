@@ -1,0 +1,9 @@
+number_power\lv_img_buf.o: ..\LVGL\GUI\lvgl\src\draw\lv_img_buf.c
+number_power\lv_img_buf.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stddef.h
+number_power\lv_img_buf.o: D:\Keil_v5\ARM\AC5\Bin\..\include\string.h
+number_power\lv_img_buf.o: ..\LVGL\GUI\lvgl\src\draw\lv_img_buf.h
+number_power\lv_img_buf.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stdbool.h
+number_power\lv_img_buf.o: ..\LVGL\GUI\lvgl\src\draw\../misc/lv_color.h
+number_power\lv_img_buf.o: ..\LVGL\GUI\lvgl\src\draw\../misc/../lv_conf_internal.h
+number_power\lv_img_buf.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stdint.h
+number_power\lv_img_buf.o: ..\LVGL\GUI\lvgl\src\draw\../misc/../lv_conf_kconfig.h

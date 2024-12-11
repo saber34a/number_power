@@ -1,0 +1,11 @@
+number_power\qrcodegen.o: ..\LVGL\GUI\lvgl\src\extra\libs\qrcode\qrcodegen.c
+number_power\qrcodegen.o: D:\Keil_v5\ARM\AC5\Bin\..\include\limits.h
+number_power\qrcodegen.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stdlib.h
+number_power\qrcodegen.o: D:\Keil_v5\ARM\AC5\Bin\..\include\string.h
+number_power\qrcodegen.o: ..\LVGL\GUI\lvgl\src\extra\libs\qrcode\qrcodegen.h
+number_power\qrcodegen.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stdbool.h
+number_power\qrcodegen.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stddef.h
+number_power\qrcodegen.o: D:\Keil_v5\ARM\AC5\Bin\..\include\stdint.h
+number_power\qrcodegen.o: ..\LVGL\GUI\lvgl\src\extra\libs\qrcode\../../../misc/lv_assert.h
+number_power\qrcodegen.o: ..\LVGL\GUI\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_internal.h
+number_power\qrcodegen.o: ..\LVGL\GUI\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_kconfig.h
