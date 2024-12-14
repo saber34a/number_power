@@ -29,7 +29,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "ili9341.h"
-
+#include "lvgl.h"
+#include "lv_port_disp_template.h"
+#include "lv_port_indev_template.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -81,6 +83,26 @@ void MX_FREERTOS_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+/* PWM_SET */
+/**
+  * @brief  频率设置，单位HZ 范围0~65535
+  * @param  占空比设置0~99
+  * @retval 成功：1 失败0
+  */
+/* PWM_SET */
+int Pwm_set(uint16_t period,uint16_t duty_ratio)
+{
+	uint16_t pwm_arr=0,pwm_ch=0;
+	if(period >= 65535)
+		return 0;
+	if(duty_ratio>=100)
+		return 0;
+	pwm_arr=(uint16_t)(1000000/(float)period);
+	pwm_ch = (uint16_t)(period*(duty_ratio/100.0));
+ 	TIM1->ARR= pwm_arr;
+	__HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_2,pwm_ch);
+	return 1;
+}
 /* USER CODE END 0 */
 
 /**
@@ -120,15 +142,33 @@ int main(void)
   MX_TIM6_Init();
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
-	ILI9341_Init();
-	for(uint16_t i=0;i<=12;i++)
-	{
-		ILI9341_FillScreen(ILI9341_RED);
-		ILI9341_FillScreen(ILI9341_BLUE);
-		ILI9341_FillScreen(ILI9341_GREEN);
-	}
-
+  HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
+//  __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_2,2);
+  Pwm_set(100,20);
+  //ILI9341_Init();
 	
+////	for(uint16_t i=0;i<=12;i++)
+////	{
+////		ILI9341_FillScreen(ILI9341_RED);
+////		ILI9341_FillScreen(ILI9341_BLUE);
+////		ILI9341_FillScreen(ILI9341_GREEN);
+////	}
+////	
+//    lv_init();       //Initialise LVGL UI library
+//    
+//    //*** must be initialized and returned ********* 
+//    lv_display_t *display = lv_port_disp_init(); // Lcd_Init()
+//    lv_port_indev_init();
+//    
+//    /*Change the active screen's background color*/
+//   lv_obj_t *screen = lv_display_get_screen_active(display);
+//   lv_obj_set_style_bg_color(screen, lv_color_hex(0x001f) , LV_PART_MAIN);
+//	
+//	
+//	lv_obj_t *label = lv_label_create(screen);
+//    lv_label_set_text(label, "Hello");
+//    lv_obj_set_style_text_color(label, lv_color_hex(0xffff), LV_PART_MAIN);
+//    lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in cmsis_os2.c) */
@@ -144,7 +184,8 @@ int main(void)
   while (1)
   {
 	  //lv_timer_handler();
-       HAL_Delay(5);
+	 // lv_timer_handler();
+     // HAL_Delay(5);
 //	  HAL_GPIO_TogglePin(LED_RUN_GPIO_Port,LED_RUN_Pin);
 //	   HAL_Delay(500);
     /* USER CODE END WHILE */

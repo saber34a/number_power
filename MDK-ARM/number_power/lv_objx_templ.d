@@ -1,1 +1,1 @@
-number_power\lv_objx_templ.o: ..\LVGL\GUI\lvgl\src\widgets\lv_objx_templ.c
+number_power\lv_objx_templ.o: ..\LVGL\lvgl\src\widgets\objx_templ\lv_objx_templ.c
